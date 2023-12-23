@@ -1,0 +1,11 @@
+create table usuario(
+id int not null primary key AUTO_INCREMENT,
+nome varchar(45) not null,
+cep varchar(45) not null,
+rua varchar(45) not null,
+bairro varchar(45) not null,
+cidade varchar(45) not null,
+estado varchar(45) not null,
+num varchar(45) not null,
+complemento varchar(45)
+);

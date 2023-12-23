@@ -1,0 +1,144 @@
+body{
+    color:lavender;
+    background-color: #1C1C1C;
+    font-size: 14pt;
+}
+
+*{
+    font-family: 'Roboto', monospace;
+}
+
+header{
+    color: lavender;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    justify-content: left;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.274);
+    border: 1px solid lavender;
+    color: lavender;
+}
+
+input[type="text"]{
+    background: none;
+    border: solid 1px grey;
+    outline: 0;
+    color: lavender;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 8px;
+    width: 220px;
+    height: 16px;
+    padding: 8px;
+    font-size: 14pt;
+    margin-bottom: 14px;
+}
+
+input[type="text"]:hover{
+    border: solid 1px lavender;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.274);
+    transition: 0.2s;
+}
+
+.btn{
+    background: #1C1C1C;
+    color: lavender;
+    border: solid 1px lavender;
+    font: normal 14pt 'Roboto Mono', monospace;
+    padding: 8px;
+    border-radius: 8px;
+    width: 120px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background: lavender;
+    color: #1C1C1C;
+    transition: 0.3s;
+}
+
+#res{
+    word-wrap: break-word;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+footer{
+    color: lavender;
+    text-align: center;
+}
+
+/*========================================================================================================================*/
+
+table{
+    width: 100%;
+    font-size: 10pt;
+    text-align: center;
+}
+
+th{
+    padding: 4px;
+}
+
+td{
+    padding: 4px;
+}
+
+.divBusca{
+    display: flex;
+    align-items:baseline;
+    font-size: 12pt;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#inputBusca{
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: 0;
+    color: lavender;
+    font-size: 12pt;
+    width: 300px;
+}
+
+#inputBusca:hover{
+    border-color: lavender;
+    transition: 0.3s;
+}
+
+#inputBusca:focus{
+    border-color: lavender;
+    transition: 0.3s;
+}
+
+#btnBusca{
+    background-color: #1c1c1c;
+    border: solid 1px;
+    border-radius: 2px;
+    color: lavender;
+    cursor: pointer;
+    margin-left: 8px;
+    height: 26px;
+    width: 80px;
+    font-size: 12pt;
+    border-radius: 8px;
+}
+
+#btnBusca:hover{
+    background-color: lavender;
+    color: #1c1c1c;
+    transition: 0.3s;
+
+}
+
+.btnTrash{
+    cursor: pointer;
+    color:crimson;
+}
